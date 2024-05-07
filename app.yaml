@@ -1,0 +1,39 @@
+runtime: php83
+runtime_config:
+  document_root: webtintuc
+handlers:
+  - url: /favicon\.ico
+    static_files: favicon.ico
+    upload: favicon\.ico
+
+  - url: /
+    script: index1.php
+
+  - url: /index1\.php/(.*)
+    script: index1.php/\1
+  
+  - url: /(.+\.php)(.*)$
+    script: \1
+
+  - url: /(.*\.(php$|css$|js$))
+    static_files: \1
+    upload: (.*\.(php$|css$|js$))
+
+
+  - url: /css
+    static_dir: css
+
+  - url: /js
+    static_dir: js
+
+  - url: /(.+\.(ico|jpg|png|gif))$
+    static_files: \1
+    upload: (.+\.(ico|jpg|png|gif))$
+   
+
+  - url: /(.+\.php)$
+    script: \1
+
+  - url: /.*
+    script: index1.php  
+

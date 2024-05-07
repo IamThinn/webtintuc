@@ -1,0 +1,209 @@
+*{margin: 0; padding:0}
+
+.doctin-tinchinh h1 {
+    text-align: center;
+    color: #ff0000;
+    font-family: inherit;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.doctin-tinchinh p {
+    text-align: justify;
+    word-break: break-word;
+    padding: 0px 15px;
+}
+
+.tinlienquan p {
+    word-break: break-word;
+    text-align: justify;
+    padding: 0 30px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.tinlienquan h3 {
+    text-align: center;
+    color: #ff0000;
+    font-size: 2.1em;
+    font-family: auto;
+    font-weight: bold;
+    padding-top: 9px;
+    overflow: hidden;
+}
+
+.tinlienquan {
+    height: 155px;
+    width: 95%;
+    margin: 5px auto;
+}
+
+.doctin-tinchinh {
+    width: 68%;
+    height: 715px;
+    background-color: aliceblue;
+    float: left;
+    margin: 0 10px;
+}
+
+.doctin-tinlienquan {
+    width: 30%;
+    height: 715px;
+    background-color: antiquewhite;
+    float: left;
+}
+
+#con-tintuc ul {
+    margin-left: 532px;
+}
+
+#con-tintuc ul li {
+    float: left;
+    padding: 0 15px;
+    font-size: 1.2em;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+.noidung-vanban p {
+    word-wrap: break-word;
+}
+
+p.tieudebangtin {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.noidung-vanban {
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 6%;
+    left: 29%;
+    overflow: hidden;
+}
+
+#con-tintuc img {
+    width: 25%;
+    height: 150px;
+}
+
+.noidung {
+    width: 99%;
+    height: 160px;
+    position: relative;
+}
+
+.tintuc-noidung {
+    width: 49%;
+    height: 500px;
+    float: left;
+    margin: 0 5px;
+}
+
+.con-tintuc-nd {
+    width: 98%;
+    height: 500px;
+    margin: 5px auto;
+}
+
+#con-tintuc h1 {
+    padding: 10px 20px;
+    font-family: initial;
+    font-weight: bold;
+    color: blue;
+    margin: 0px;
+    background-color: aliceblue;
+}
+
+div#con-tintuc {
+    width: 87%;
+    height: 600px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 121px;
+    top: 779px;
+}
+
+div#seach {
+    float: left;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.carousel-caption {
+    margin-bottom: 25px;
+}
+
+/*nav.menu-top {
+	position: fixed;
+}*/
+
+.menu-top ul li {
+    float: left;
+    padding: 0px 28px;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+.menu-top ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 26px;
+    margin-left: 217px;
+}
+
+.menu-top h1 {
+    float: left;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.home {
+    width: 100%;
+    height: 1550px;
+    background: url(../public/image/b1.jpg) top left no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.home-doctin {
+    width: 100%;
+    height: 900px;
+    background: url(../public/image/b1.jpg) top left no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+#container{
+	width: 87%;
+	height: 662px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 5%;
+	border: 2px solid #ffffff;
+	left: 9%;
+}
+#container-doctin{
+	width: 87%;
+	height: 720px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 10%;
+	border: 2px solid #ffffff;
+	left: 9%;
+}
+.img-item{
+	width: 100%;
+	height: 660px;
+}
+.mauxanh{
+	background-color: #3399ff;
+	margin: 0px 9px;
+}
+a:hover{
+	color:#FF0000;
+}
